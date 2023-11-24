@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap');
+.container{
+    width: 1000px;
+    overflow: hidden;/*скрывает часть содержимого которая не поместилась в контейнере*/
+    background-color: rgb(240, 236, 236);
+    margin: 0 auto;
+}
+.banner{
+    background-image: url(26.jpg);/*устанавливает одно или несколько
+     фоновых изображений для элемента*/
+    background-position-y: -189px;/*задаёт положение фонового изображения
+     внутри элемента по вертикали*/
+    height: 370px;
+    padding: 13% 0 0 0;
+}
+h1{
+    color: #0eaddd;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+a{
+    font-size: 25px;
+}
+a{
+    color: black;
+}
+body{
+    background-color: aqua;
+}
+.menu {
+    list-style-type: none;
+    padding-left: 0;/*определяет ширину левого внутреннего отступа элемента*/
+    margin-left: 0;/*устанавливает внешний отступ слева от элемента*/ 
+}
+.menu a {
+    text-decoration: none;/*позволяет добавить декоративные линии тексту*/
+    font-family: sans-serif;/*шрифт*/
+    color: rgb(10, 4, 4);
+    display: inline-block;/*элемент отображается как строчный элемент, но его содержимое 
+    может быть отформатировано как блок*/
+    padding: 10px 20px;
+    background-color: rgb(150, 150, 212);
+    border-bottom: 5px solid darkgrey;/*описывает нижнию границу элемента*/
+margin: 10px;/*определяет внешний отступ на всех четырёх сторонах элемента*/
+}
+.menu li {
+    display: inline;/*элемент отбражается как строчный элемент и не создаёт 
+    новый блок*/
+}
+ul {
+    text-align: center;/*линейное содержимое центрируется в линейпом блоке*/
+}
+.video{
+    display: flex;
+    flex-wrap: wrap;/*расположение в несколько линий,перенос на новую строчку того что
+    не влезло*/
+    justify-content: space-evenly;/*с обоих концов равномерно распределяет 
+    все элементы по ширине flex-блока*/
+    gap: 20px;/*отступы*/
+}
+footer{
+    background-color: rgb(94, 94, 235);
+    height: 200px;/*высота*/
+    display: flex;
+    justify-content: center;/*выравнивание элементов по центру(горизонталь)*/
+    align-items: center;/*центрировать элементы в поперечной оси(вертикаль)*/
+}
+li{
+    font-size: 20px;/*размер шрифта*/
+    list-style-type: none;/*это чтобы убрать буллиты*/
+}
+.event-data{
+    color: rgb(251, 255, 0);/*цвет*/
+    font-weight: 700;/*это чтобы сделать текст жирным*/
+    background-color: rgb(8, 8, 8);/*цвет фона*/
+    padding: 2px;/*внутренний отступ*/
+    border-radius: 5px;/*это закругление крёв контейнера*/
+}
+.calendar ul{
+    text-align: left;
+}
