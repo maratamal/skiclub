@@ -3,7 +3,7 @@
     width: 1000px;
     overflow: hidden;/*скрывает часть содержимого которая не поместилась в контейнере*/
     background-color: rgb(240, 236, 236);
-    margin: 0 auto;
+    margin: auto;
 }
 .banner{
     background-image: url(26.jpg);/*устанавливает одно или несколько
@@ -78,5 +78,18 @@ li{
     border-radius: 5px;/*это закругление крёв контейнера*/
 }
 .calendar ul{
+    text-align: left;
+}
+h3{
+    color: cornflowerblue;
+}
+p{
+    color: rgb(3, 3, 3);
+    font-size: 15 px;
+}
+.text p{
+    color: black;
+}
+.киров ul{
     text-align: left;
 }
