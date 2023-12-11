@@ -4,3 +4,10 @@
     background-image: url(https://avatars.mds.yandex.net/get-altay/225456/2a00000186d0f47180e5803ea07e72e8ba9f/XXXL);
     background-position: 0 -200px;
 }
+.races{
+    padding-left:40px;
+}
+.races h2, .races p{
+    margin: 0;
+    line-height: 2;
+}
