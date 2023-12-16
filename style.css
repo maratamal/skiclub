@@ -14,10 +14,11 @@
     padding: 13% 0 0 0;
 }
 h1{
-    color: #0eaddd;
+    color: #f9fcfd;
     text-align: center;
     font-size: 40px;
     font-family: 'Merriweather', serif;
+    text-shadow: 2px 4px 0px black;
 }
 a{
     font-size: 25px;
@@ -39,10 +40,14 @@ body{
     color: rgb(10, 4, 4);
     display: inline-block;/*элемент отображается как строчный элемент, но его содержимое 
     может быть отформатировано как блок*/
-    padding: 10px 20px;
-    background-color: rgb(150, 150, 212);
-    border-bottom: 5px solid darkgrey;/*описывает нижнию границу элемента*/
+    padding: 6px 12px;
+    background-color: rgb(218 218 237);
+    border-radius: 8px;
 margin: 10px;/*определяет внешний отступ на всех четырёх сторонах элемента*/
+transition: .3s;
+}
+.menu a:hover{
+    background-color:#b8c6c7;
 }
 .menu li {
     display: inline;/*элемент отбражается как строчный элемент и не создаёт 
