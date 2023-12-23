@@ -1,100 +1,160 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300;1,700&display=swap');
-.container{
+
+.container {
     width: 1000px;
-    overflow: hidden;/*скрывает часть содержимого которая не поместилась в контейнере*/
+    overflow: hidden;
+    /*скрывает часть содержимого которая не поместилась в контейнере*/
     background-color: rgb(240, 236, 236);
     margin: auto;
 }
-.banner{
-    background-image: url(26.jpg);/*устанавливает одно или несколько
+
+.banner {
+    background-image: url(26.jpg);
+    /*устанавливает одно или несколько
      фоновых изображений для элемента*/
-    background-position-y: -189px;/*задаёт положение фонового изображения
+    background-position-y: -189px;
+    /*задаёт положение фонового изображения
      внутри элемента по вертикали*/
     height: 370px;
     padding: 13% 0 0 0;
 }
-h1{
+
+h1 {
     color: #f9fcfd;
     text-align: center;
     font-size: 40px;
     font-family: 'Merriweather', serif;
     text-shadow: 2px 4px 0px black;
 }
-a{
+
+a {
     font-size: 25px;
 }
-a{
+
+a {
     color: black;
 }
-body{
-    background-color: aqua;
+
+body {
+    background-image: url(https://img.fonwall.ru/o/99/zima-sneg-vecher-peyzaji.jpg);
+        background-position-y: -130px;
+        background-size: 100%;
+        background-attachment: fixed;
 }
+
 .menu {
     list-style-type: none;
-    padding-left: 0;/*определяет ширину левого внутреннего отступа элемента*/
-    margin-left: 0;/*устанавливает внешний отступ слева от элемента*/ 
+    padding-left: 0;
+    /*определяет ширину левого внутреннего отступа элемента*/
+    margin-left: 0;
+    /*устанавливает внешний отступ слева от элемента*/
 }
+
 .menu a {
-    text-decoration: none;/*позволяет добавить декоративные линии тексту*/
-    font-family: sans-serif;/*шрифт*/
+    text-decoration: none;
+    /*позволяет добавить декоративные линии тексту*/
+    font-family: sans-serif;
+    /*шрифт*/
     color: rgb(10, 4, 4);
-    display: inline-block;/*элемент отображается как строчный элемент, но его содержимое 
+    display: inline-block;
+    /*элемент отображается как строчный элемент, но его содержимое 
     может быть отформатировано как блок*/
     padding: 6px 12px;
     background-color: rgb(218 218 237);
     border-radius: 8px;
-margin: 10px;/*определяет внешний отступ на всех четырёх сторонах элемента*/
-transition: .3s;
+    margin: 10px;
+    /*определяет внешний отступ на всех четырёх сторонах элемента*/
+    transition: .3s;
 }
-.menu a:hover{
-    background-color:#b8c6c7;
+
+.menu a:hover {
+    background-color: #b8c6c7;
 }
+
 .menu li {
-    display: inline;/*элемент отбражается как строчный элемент и не создаёт 
+    display: inline;
+    /*элемент отбражается как строчный элемент и не создаёт 
     новый блок*/
 }
+
 ul {
-    text-align: center;/*линейное содержимое центрируется в линейпом блоке*/
+    text-align: center;
+    /*линейное содержимое центрируется в линейпом блоке*/
+    margin: 0;
 }
-.video{
+
+.video {
     display: flex;
-    flex-wrap: wrap;/*расположение в несколько линий,перенос на новую строчку того что
+    flex-wrap: wrap;
+    /*расположение в несколько линий,перенос на новую строчку того что
     не влезло*/
-    justify-content: space-evenly;/*с обоих концов равномерно распределяет 
+    justify-content: space-evenly;
+    /*с обоих концов равномерно распределяет 
     все элементы по ширине flex-блока*/
-    gap: 20px;/*отступы*/
+    gap: 20px;
+    /*отступы*/
+    padding-bottom: 80px;
 }
-footer{
+
+footer {
     background-color: rgb(94, 94, 235);
-    height: 200px;/*высота*/
+    height: 200px;
+    /*высота*/
     display: flex;
-    justify-content: center;/*выравнивание элементов по центру(горизонталь)*/
-    align-items: center;/*центрировать элементы в поперечной оси(вертикаль)*/
+    justify-content: center;
+    /*выравнивание элементов по центру(горизонталь)*/
+    align-items: center;
+    /*центрировать элементы в поперечной оси(вертикаль)*/
 }
-li{
-    font-size: 20px;/*размер шрифта*/
-    list-style-type: none;/*это чтобы убрать буллиты*/
+
+li {
+    font-size: 20px;
+    /*размер шрифта*/
+    list-style-type: none;
+    /*это чтобы убрать буллиты*/
 }
-.event-data{
-    color: rgb(251, 255, 0);/*цвет*/
-    font-weight: 700;/*это чтобы сделать текст жирным*/
-    background-color: rgb(8, 8, 8);/*цвет фона*/
-    padding: 2px;/*внутренний отступ*/
-    border-radius: 5px;/*это закругление крёв контейнера*/
+
+.event-data {
+    color: rgb(251, 255, 0);
+    /*цвет*/
+    font-weight: 700;
+    /*это чтобы сделать текст жирным*/
+    background-color: rgb(8, 8, 8);
+    /*цвет фона*/
+    padding: 2px;
+    /*внутренний отступ*/
+    border-radius: 5px;
+    /*это закругление крёв контейнера*/
 }
-.calendar ul{
+
+.calendar ul {
     text-align: left;
 }
-h3{
+
+h3 {
     color: cornflowerblue;
 }
-p{
+
+p {
     color: rgb(3, 3, 3);
     font-size: 15 px;
 }
-.text p{
+
+.text p {
     color: black;
 }
-.киров ul{
+
+.киров ul {
     text-align: left;
+}
+
+.youtube-video {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+iframe {
+    border-radius: 10px;
 }
