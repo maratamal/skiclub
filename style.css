@@ -17,6 +17,8 @@
      внутри элемента по вертикали*/
     height: 370px;
     padding: 13% 0 0 0;
+    position: relative;
+    margin: 40px 0 0 0;
 }
 
 h1 {
@@ -48,6 +50,12 @@ body {
     /*определяет ширину левого внутреннего отступа элемента*/
     margin-left: 0;
     /*устанавливает внешний отступ слева от элемента*/
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    left: 0;
+    
 }
 
 .menu a {
@@ -157,4 +165,23 @@ p {
 
 iframe {
     border-radius: 10px;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+}
+.video h2{
+   /* display: inline-block;*/
+    background-color: rgb(26, 101, 240);
+    border-radius: 5px;
+    font-size: 35px;
+    color: rgb(10, 10, 10);
+}
+.menu ul{
+    width: 1000px;
+    background-color: aliceblue;
+    margin: 0 auto;
+    padding: 0;
 }
