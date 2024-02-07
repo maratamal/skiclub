@@ -105,8 +105,8 @@ ul {
 }
 
 footer {
-    background-color: rgb(94, 94, 235);
-    height: 200px;
+    background-color: rgb(6, 6, 7);
+    /* height: 200px; */
     /*высота*/
     display: flex;
     justify-content: center;
@@ -140,7 +140,7 @@ li {
 }
 
 h3 {
-    color: cornflowerblue;
+    color: rgb(245, 245, 247);
 }
 
 p {
