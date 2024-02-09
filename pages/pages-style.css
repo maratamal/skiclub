@@ -36,7 +36,7 @@ tr:hover{
     background-color: darkgray;
 }
 .ski h2{
-    color: rgb(124, 123, 123);
+    color: rgb(163, 163, 163);
     display: flex;
     justify-content: center;
 }
@@ -55,7 +55,7 @@ footer img{
     width: 30px;
     height: 30px;
     position: relative;
-    top: -120px;
+    top: -60px;
     left: -180px;
 }
 footer h4{
@@ -67,7 +67,7 @@ footer h4{
 }
 footer h2{
     position: relative;
-    top: -180px;
+    top: -120px;
     left: -145px;
     color: rgb(60, 12, 194);
     font-size: 20px;
